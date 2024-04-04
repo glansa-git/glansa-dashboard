@@ -1,10 +1,10 @@
 <?php
 
 // Database configuration
-$host = 'localhost'; // Change this to your database host
-$dbname = 'glansa'; // Change this to your database name
-$username = 'root'; // Change this to your database username
-$password = ''; // Change this to your database password
+$host = '158.220.124.111'; // Change this to your database host
+$dbname = 'dashboar_glansa'; // Change this to your database name
+$username = 'dashboar_glansa'; // Change this to your database username
+$password = 'dashboar_glansa'; // Change this to your database password
 
 // Attempt database connection
 $conn = new mysqli($host, $username, $password, $dbname);
