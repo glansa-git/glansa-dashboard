@@ -1,0 +1,50 @@
+#editor-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    overflow: hidden; /* Hide overflow to enable scrolling */
+}
+
+#initial-textarea {
+    position: relative;
+    border: none;
+    padding: 10px;
+    min-height: 200px;
+    max-height: 400px; /* Set a maximum height to enable scrolling */
+    overflow-y: auto; /* Enable vertical scrolling */
+    outline: none;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 14px; /* Adjust font size as needed */
+    line-height: 1.6; /* Adjust line height as needed */
+    resize: none; /* Disable textarea resize */
+}
+
+.placeholder {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    pointer-events: none;
+    color: #999999;
+}
+
+.controls {
+    display: none;
+    padding: 10px;
+    border-bottom: 1px solid #ced4da;
+}
+
+.controls button {
+    margin-right: 5px;
+}
+
+#code-editor {
+    display: none;
+    border-top: 1px solid #ced4da;
+    padding: 10px;
+    width: 100%;
+    font-family: monospace;
+}
