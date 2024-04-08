@@ -3,5 +3,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/public_html/
+    - export DEPLOYPATH=/home/kidsconn/public_html/
     - /bin/cp -R login.php $DEPLOYPATH
